@@ -4,9 +4,6 @@ d3.json(url).then(function(data) {
     console.log(data);
   });
 
-
-
-// Initializes the page with a default plot
 function init() {
 
     let dropdownMenu = d3.select("#selDataset");
